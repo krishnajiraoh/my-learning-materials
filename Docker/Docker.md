@@ -29,7 +29,7 @@ Docker Images:
 	- 
 
 Docker hub:
-	- Repo/registry for docker images
+	• Repo/registry for docker images
 	
 
 Lifecycle of a container:
@@ -43,7 +43,8 @@ Lifecycle of a container:
 	• Docker rm deletes the writable layer
 
 
-Diff b/w image & container
+Diff b/w image & container:
+
 	• Container is an runtime/instance of image
 	• Multiple containers can point to a single image
 	• Share images, not containers
