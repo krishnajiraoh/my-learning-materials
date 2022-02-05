@@ -1,10 +1,12 @@
 Containers 
-	• Basics of cloud native dev
-	• convenient package to ship things
-	• Portable, stackable, isolated, lightweight
-	• Open specification
-	• A container is just a process bound by LINUX primitives (chroot, cgroups., namespaces, netlink,.. )
-	• Develop, Assemble & ship, Deploy & Run
+<ul>
+	<li>Basics of cloud native dev</li>
+	<li>convenient package to ship things</li>
+	<li>Portable, stackable, isolated, lightweight</li>
+	<li>Open specification</li>
+	<li>A container is just a process bound by LINUX primitives (chroot, cgroups., namespaces, netlink,.. )</li>
+	<li>Develop, Assemble & ship, Deploy & Run</li>
+</ul>
 
 Advantages of Docker:
 Reproducibility , ….
