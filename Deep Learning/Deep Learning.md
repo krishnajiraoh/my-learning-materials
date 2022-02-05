@@ -57,7 +57,7 @@
 # Chain Rule:
 	• The chain rule is essentially a mathematical formula that helps you calculate the derivative of a composite function
 
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/chain_rule.png" height=400 width=400 />
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/chain_rule.png" height=400 width=600 />
 
 
 
