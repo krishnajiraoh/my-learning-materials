@@ -1,12 +1,11 @@
-Containers 
-<ul>
-	<li>Basics of cloud native dev</li>
-	<li>convenient package to ship things</li>
-	<li>Portable, stackable, isolated, lightweight</li>
-	<li>Open specification</li>
-	<li>A container is just a process bound by LINUX primitives (chroot, cgroups., namespaces, netlink,.. )</li>
-	<li>Develop, Assemble & ship, Deploy & Run</li>
-</ul>
+Containers:
+
+	• Basics of cloud native dev
+	• convenient package to ship things
+	• Portable, stackable, isolated, lightweight
+	• Open specification
+	• A container is just a process bound by LINUX primitives (chroot, cgroups., namespaces, netlink,.. )
+Develop, Assemble & ship, Deploy & Run
 
 Advantages of Docker:
     
@@ -67,3 +66,5 @@ It is possible to build using dockerd and run using containerd
 
 -> standards -> OCI specs
 
+
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
