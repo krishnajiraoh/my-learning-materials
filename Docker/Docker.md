@@ -90,8 +90,8 @@ It is possible to build using dockerd and run using containerd
 
 # Dockerfile:
 
-• explains ow the image must build
-• each line is a layer in the image
+    • explains ow the image must build
+    • each line is a layer in the image
 
     • FROM
         • Scratch or base image
@@ -164,7 +164,7 @@ It is possible to build using dockerd and run using containerd
 	    - Both stdin and stdout open
 	    - For ex: docker run -I -t <image> /bin/sh -> terminal of image
 
-### Run in background
+### Run in background:
 
     • Docker run -d unbuntu
 	• Alive without stdin open
