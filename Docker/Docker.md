@@ -12,17 +12,6 @@
     • Reproducibility 
     • ….
 
-# Diff b/w docker & k8s:
-
-	* K8s is orchestration on top of docker
-	
-
-# Diff b/w VM & Docker/containers:
-
-	• No OS
-	• Light weight , …
-
-
 # K8s:
 
 	• Manages workload, monitor apps/health checks
@@ -47,7 +36,16 @@
 	• Docker stop and docker start reuses the writable layer
 	• Docker rm deletes the writable layer
 
+# Diff b/w docker & k8s:
 
+	* K8s is orchestration on top of docker
+	
+
+# Diff b/w VM & Docker/containers:
+
+	• No OS
+	• Light weight , …
+	
 # Diff b/w image & container:
 
 	• Container is an runtime/instance of image
