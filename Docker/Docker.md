@@ -44,9 +44,9 @@ Lifecycle of a container:
 
 
 Diff b/w image & container
-	- Container is an runtime/instance of image
-	- Multiple containers can point to a single image
-	- Share images, not containers
+	• Container is an runtime/instance of image
+	• Multiple containers can point to a single image
+	• Share images, not containers
 
 
 Flow of cmds docker run / pull / build
