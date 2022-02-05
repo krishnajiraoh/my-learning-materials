@@ -67,4 +67,4 @@ It is possible to build using dockerd and run using containerd
 -> standards -> OCI specs
 
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Docker/images/docker_networking.png)
