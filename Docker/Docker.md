@@ -1,4 +1,4 @@
-Containers:
+# Containers:
 
 	• Basics of cloud native dev
 	• convenient package to ship things
@@ -7,37 +7,37 @@ Containers:
 	• A container is just a process bound by LINUX primitives (chroot, cgroups., namespaces, netlink,.. )
     • Develop, Assemble & ship, Deploy & Run
 
-Advantages of Docker:
+# Advantages of Docker:
     
     • Reproducibility 
     • ….
 
-Diff b/w docker & k8s:
+# Diff b/w docker & k8s:
 
 	* K8s is orchestration on top of docker
 	
 
-Diff b/w VM & Docker/containers:
+# Diff b/w VM & Docker/containers:
 
 	• No OS
 	• Light weight , …
 
 
-K8s:
+# K8s:
 
 	• Manages workload, monitor apps/health checks
 	• Service discovery, rescheduling 
 
-Docker Images:
+# Docker Images:
 
 	• filesystem snapshot that function as the root filesystem of a container at startup + some metadata
 
-Docker hub:
+# Docker hub:
 
 	• Repo/registry for docker images
 	
 
-Lifecycle of a container:
+# Lifecycle of a container:
 
 	• By default :
 		○ All layers of an image are ready-only
@@ -48,20 +48,20 @@ Lifecycle of a container:
 	• Docker rm deletes the writable layer
 
 
-Diff b/w image & container:
+# Diff b/w image & container:
 
 	• Container is an runtime/instance of image
 	• Multiple containers can point to a single image
 	• Share images, not containers
 
 
-Flow of cmds docker run / pull / build:
+# Flow of cmds docker run / pull / build:
 
 	• Client -> Docker host <-> dicker hub
     • Client talks to docker_host via socket connection
 
 
-Advantages of Layers:
+# Advantages of Layers:
 
 	• Reuse of layers
     • Only delta is downloaded
@@ -73,13 +73,13 @@ It is possible to build using dockerd and run using containerd
 -> standards -> OCI specs
 
 
-Docker Networking:
+# Docker Networking:
 
     • NAT 
 ![Docker Networking](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Docker/images/docker_networking.png)
 
 
-Volumes:
+# Volumes:
 
     • Why?
 		○ Writable layer lost once removed 
@@ -88,7 +88,7 @@ Volumes:
 ![Docker Volumes](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Docker/images/docker_volumes.png)
     In Named volume, the data will be encrypted in the destination
 
-#Dockerfile:
+# Dockerfile:
 
 • explains ow the image must build
 • each line is a layer in the image
@@ -125,7 +125,7 @@ Volumes:
             ○ Hacker can gain root privileges 
 
 
-#MultiStage build
+# MultiStage build
 ![Docker Multistage build](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Docker/images/docker_multistage.png)
 
 ## Commands
@@ -170,6 +170,6 @@ Volumes:
 	• Alive without stdin open
 
 
-## To Read:
+# To Read:
 
     • CMD: commit vs tag , Docker login, Registry
