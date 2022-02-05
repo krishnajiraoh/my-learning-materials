@@ -11,7 +11,7 @@
 
 # Neural Network
 
-	
+![A Neural Network](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/nn.png)
 
 	• Consists of layers
 	• Types :
@@ -39,6 +39,8 @@
 		○ Mean absolute error
 		○ Mean squared error
 		○ Log loss or binary cross entropy
+
+![Log loss formula](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/log_loss.png)
 			
 
 # Difference b/w slope & derivative :
@@ -46,16 +48,16 @@
 	• Derivative is not constant, is represented as a function-> non-linear
 
 # Derivatives:
-
+![Derivatives formula](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/derivatives.png)
 
 # Partial derivatives
-
-
-
+![Partial Derivatives formula](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/partial_derivatives.png)
 
 
 # Chain Rule:
 	• The chain rule is essentially a mathematical formula that helps you calculate the derivative of a composite function
+
+![Chain Rule](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/chain_rule.png)
 
 
 
