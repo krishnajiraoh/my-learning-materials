@@ -15,7 +15,8 @@ Diff b/w docker & k8s
 	* K8s is orchestration on top of docker
 	
 
-Diff b/w VM & Docker/containers
+Diff b/w VM & Docker/containers:
+
 	- No OS
 	- Light weight , …
 
