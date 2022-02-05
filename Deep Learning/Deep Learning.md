@@ -8,7 +8,7 @@
 	• A layer consists of small individual units called neurons. 
 	• An artificial neuron is similar to a biological neuron. 
 	• It receives input from the other neurons, performs some processing, and produces an output.
-	• <a href="https://www.analyticsvidhya.com/blog/2021/03/basics-of-neural-network/">Blog</a>
+<a href="https://www.analyticsvidhya.com/blog/2021/03/basics-of-neural-network/">Blog</a>
 
 # Neural Network
 
