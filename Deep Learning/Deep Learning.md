@@ -52,6 +52,7 @@
 
 # Partial derivatives
 ![Partial Derivatives formula](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/partial_derivatives.png | width=100)
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/partial_derivatives.png" height=250 weight=250 />
 
 
 # Chain Rule:
