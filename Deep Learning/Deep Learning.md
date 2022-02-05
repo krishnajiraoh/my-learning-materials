@@ -51,15 +51,13 @@
 ![Derivatives formula](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/derivatives.png)
 
 # Partial derivatives
-![Partial Derivatives formula](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/partial_derivatives.png | width=100)
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/partial_derivatives.png" height=250 weight=250 />
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/partial_derivatives.png" height=250 weight=400 />
 
 
 # Chain Rule:
 	• The chain rule is essentially a mathematical formula that helps you calculate the derivative of a composite function
 
-![Chain Rule](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/chain_rule.png)
-
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/chain_rule.png" height=250 weight=400 />
 
 
 
@@ -71,6 +69,6 @@
 
 # Interview Questions:
 
-Build a simple NN class with mimicking a dense layer with sigmoid activation function
+    • Build a simple NN class with mimicking a dense layer with sigmoid activation function
 
 				
