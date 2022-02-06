@@ -33,6 +33,17 @@
 	• The main function of it is to introduce non-linear properties into the network.
 	• What it does is, it calculates the ‘weighted sum’ and adds direction and decides whether to ‘fire’ a particular neuron or not. 
 	• The nonlinear activation function will help the model to understand  the complexity and give accurate results.
+	
+## Types:
+![Activation Functions](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/activation_function1.png)
+<table><tr>
+	<td>Step function</td>
+	<td>Sigmoid function</td>
+	<td>tanh</td>
+	</tr></table>
+![ReLU](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/activation_function_relu.png)
+![Leaky ReLU](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/activation_function_laky_relu.png)
+
 
 # Loss or cost function
 	• Used in model training, where the idea is to minimize the loss / cost between actual and predicted
