@@ -37,9 +37,27 @@
 ## Types:
 <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/activation_funtions1.png" />
 <table><tr>
-	<td>Step function</td>
-	<td>Sigmoid function</td>
-	<td>tanh</td>
+	<td>Step function<br>
+		<ul>
+			<li>Output is binary -> 0 or 1</li>
+		</ul>
+	</td>
+	<td>Sigmoid function<br>
+		<ul>
+			<li>Y = f(x)</li>
+			<li>Sigmoid(z) = 1 / 1 + e-2, e = Euler's number, 2.718</li>
+			<li>Converts to range 0 to 1</li>
+			<li>Classification scenario</li>
+			<li>Output is 0 < m < 1</li>
+			<li><b>Has Vanishing gradient problem</b></li>
+		</ul>
+	</td>
+	<td>tanh<br>
+		<ul>
+			<li>Output is -1 < m < 1</li>
+			<li><b>Also has vanishing gradient problem</b></li>
+		</ul>
+	</td>
 	</tr></table>
 <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/activation_funtions_relu.png" />
 <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/activation_function_leaky_relu.png" />
