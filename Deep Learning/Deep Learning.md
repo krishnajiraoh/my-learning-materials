@@ -6,8 +6,9 @@
 
 # Neuron
 	• A layer consists of small individual units called neurons. 
-	• An artificial neuron is similar to a biological neuron. It receives input from the other neurons, performs some processing, and produces an output.
-	• https://www.analyticsvidhya.com/blog/2021/03/basics-of-neural-network/
+	• An artificial neuron is similar to a biological neuron. 
+	• It receives input from the other neurons, performs some processing, and produces an output.
+<a href="https://www.analyticsvidhya.com/blog/2021/03/basics-of-neural-network/">Blog</a>
 
 # Neural Network
 
@@ -51,13 +52,13 @@
 ![Derivatives formula](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/derivatives.png)
 
 # Partial derivatives
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/partial_derivatives.png" height=250 weight=400 />
+<cener><img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/partial_derivatives.png" height=250 width=400 /></center>
 
 
 # Chain Rule:
 	• The chain rule is essentially a mathematical formula that helps you calculate the derivative of a composite function
 
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/chain_rule.png" height=250 weight=400 />
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/chain_rule.png" height=400 width=800 />
 
 
 
