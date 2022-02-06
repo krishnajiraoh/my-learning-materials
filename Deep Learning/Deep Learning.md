@@ -35,13 +35,16 @@
 	• The nonlinear activation function will help the model to understand  the complexity and give accurate results.
 	
 ## Types:
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/activation_funtions1.png" />
 <table><tr>
+	<td><img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/activation_funtions_step.PNG" /></td>
 	<td>Step function<br>
 		<ul>
 			<li>Output is binary -> 0 or 1</li>
 		</ul>
 	</td>
+	</tr>
+	<tr>
+		<td><img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/activation_function_sigmoid.png" /></td>
 	<td>Sigmoid function<br>
 		<ul>
 			<li>Y = f(x)</li>
@@ -52,6 +55,9 @@
 			<li><b>Has Vanishing gradient problem</b></li>
 		</ul>
 	</td>
+	</tr>
+	<tr>
+		<td><img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/activation_function_tanh.png" /></td>
 	<td>tanh<br>
 		<ul>
 			<li>Output is -1 < m < 1</li>
