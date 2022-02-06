@@ -58,9 +58,35 @@
 			<li><b>Also has vanishing gradient problem</b></li>
 		</ul>
 	</td>
-	</tr></table>
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/activation_funtions_relu.png" />
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/activation_function_leaky_relu.png" />
+	</tr>
+	<tr>
+		<td><img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/activation_funtions_relu.png" /></td>
+		<td>ReLU
+			<ul>
+				<li>Preferred for hidden layer</li>
+				<li>Lightweight</li>
+				<li>Faster computation</li>
+				<li>ReLU(z) = max(0,z)</li>
+				<li><b>Also has vanishing gradient problem</b></li>
+			</ul>
+		</td>
+	</tr>	
+	<tr>
+		<td><img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/activation_function_leaky_relu.png" /></td>
+		<td>Leaky ReLU
+			<ul>
+				<li>max(0.1x , x)</li>
+				<li>adds a small leak for - ve values (alpha) rather than making them 0. </li>
+				<li>negative values are multiplied by small alpha and are not actually 0. </li>
+				<li>Leaky relu is preferred when:</li>
+				<ul>
+					<li>There are lots of negative activations and relu stops learning process.</li>
+					<li>If you don't want to carefully initialize weights, relu will get stuck if wrong combination of weights is used but leaky relu will slowly find convergence even on random initialized weights.</li>
+				</ul>				
+			</ul>
+		</td>
+	</tr>
+</table>
 
 # Loss or cost function
 	• Used in model training, where the idea is to minimize the loss / cost between actual and predicted
