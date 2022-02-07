@@ -94,6 +94,16 @@
 	</tr>
 </table>
 
+# Soft max:
+
+	- Normalizes the output
+	- In sigmoid, the outputs of classes do not add to 1
+	- Outputs of all classes add to 1
+	- Ex: Class 1 = 0.4, Class 2 = 0.8
+	- Softmax ouputs:
+		Class 1 = 0.4 / (0.4 + 0.8) = 0.33
+		Class 2 = 0.8 / (0.4 + 0.8) = o.67 
+
 # Loss or cost function
 	• Used in model training, where the idea is to minimize the loss / cost between actual and predicted
 	• Individual errors are called loss and the overall aggregated error (like MAE) is called cost function
@@ -125,9 +135,6 @@
 
 # Dropout Regularizations
 	• dropout regularization is used to randomly drop neurons from hidden layers and this helps with generalization.
-
-# Applications of Computer Vision
-
 
 # Interview Questions:
 

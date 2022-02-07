@@ -1,5 +1,6 @@
 # General
 
+	• Difference b/w integer division and float division
 	• List comprehension:
         [ f(x) for i in list_a ]
 
@@ -20,9 +21,11 @@
 	• Unique counts
 		• np.unique(y_pred, return_counts=True)
 	• Reshape -> arr.reshpae(new_shape)
+		• y_train.reshape(-1,)  => -1 refs mpt to drop the dimension
 	• Apply function in an array:
 		• y_pred = (y_pred < 0).astype(int)
-
+	• argmax -> get the index of max value
+		• np.argmax(arr)
 
 # Sklearn:
 
