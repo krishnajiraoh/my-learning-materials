@@ -31,3 +31,6 @@
 
 	• Sklearn.metrics -> classification_report
     • Model_selection -> train_tset_split
+
+# Seaborn
+	• Heatmap -> Confusion Matrix -> annot=True, fmt='d'
