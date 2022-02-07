@@ -4,6 +4,10 @@
 	• List comprehension:
         [ f(x) for i in list_a ]
 
+# Dictonary
+	- Looping
+		for a,b in dict_name.items()
+
 # Pandas:
 
 	• Read_csv
@@ -34,3 +38,10 @@
 
 # Seaborn
 	• Heatmap -> Confusion Matrix -> annot=True, fmt='d'
+
+
+# Tensorflow
+
+## layers
+
+	- layers.Conv2D(16, 3, padding='same')
