@@ -121,11 +121,12 @@
 <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/chain_rule.png" height=400 width=800 />
 
 
+# Tensorboard
 
 # Dropout Regularizations
 	• dropout regularization is used to randomly drop neurons from hidden layers and this helps with generalization.
 
-# Tensorboard
+# Applications of Computer Vision
 
 
 # Interview Questions:
