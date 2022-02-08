@@ -8,3 +8,7 @@ Deep Learning/6. CNN for Handwriten digits Classification/.ipynb_checkpoints/CNN
 
 Deep Learning/8. Data Augmentation for (Googleapis flower dataset) Image classification using CNN/datasets/*
 Deep Learning/8. Data Augmentation for (Googleapis flower dataset) Image classification using CNN/model/*
+
+Deep Learning/9. Transfer Learning using Google MobileNet V2 Model/datasets/*
+Deep Learning/9. Transfer Learning using Google MobileNet V2 Model/model/*
+Deep Learning/9. Transfer Learning using Google MobileNet V2 Model/mobilenetv2_feature_vector/*
