@@ -3,6 +3,9 @@
 	• Difference b/w integer division and float division
 	• List comprehension:
         [ f(x) for i in list_a ]
+	• Read labels of classes into a list
+		with open() as f:
+			arr = f.read().splitline()
 
 # Dictonary
 	- Looping
@@ -30,6 +33,11 @@
 		• y_pred = (y_pred < 0).astype(int)
 	• argmax -> get the index of max value
 		• np.argmax(arr)
+	• add dimension to array:
+		• IMAGE_SHAPE = (100,100)	
+		• IMAGE_SHAPE+(3,)
+	• add dimension in the front:
+		• gold_fish[np.newaxis, ,,, ]
 
 # Sklearn:
 
