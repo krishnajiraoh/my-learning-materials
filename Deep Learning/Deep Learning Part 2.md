@@ -24,9 +24,10 @@ image cnn for koala
 	
 	• Feature detectors
 	• Filters detect spatial patterns such as edges in an image by detecting the changes in intensity values of the image
-	• a high-frequency image is the one where the intensity of the pixels changes by a large amount, whereas a low-frequency image is the one where the intensity is almost uniform.
+	• a high-frequency image is the one where the intensity of the pixels changes by a large amount, 
+	• whereas a low-frequency image is the one where the intensity is almost uniform.
 	• Usually, an image has both high and low frequency components.
-	• The high-frequency components correspond to the edges of an object because at the edges the rate of change of intensity of pixel values is high.
+	• high-frequency components correspond to edges of an object because at the edges the rate of change of intensity of pixel values is high.
 
 ## Feature map:
 
@@ -44,7 +45,7 @@ image cnn for koala
 ## Pooling layer:
 
 	• another building block of a CNN. Pooling. 
-	• Its function is to progressively reduce the spatial size of the representation to reduce the amount of parameters and computation
+	• function is to progressively reduce the spatial size of the representation to reduce the amount of parameters and computation
 	• operates on each feature map independently.
 	• Benefits :
 		○ Reduces dimensions & computations
@@ -66,10 +67,19 @@ image cnn for koala
 
 ## Padding:
 
-	• Corner pixels don’t contribute much in feature detection
+	• Why? Corner pixels don’t contribute much in feature detection
 
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_1.png" width="60%" /> 
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_2.png" width="60%" /> 
+<table>
+	<tr>
+		<td>
+			<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_1.png" height="300" width="100%"/> 
+		</td>
+		<td>
+			<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_2.png" height="300" width="100%"/>
+		</td>
+	</tr>
+</table>
+
 
 ### Difference b/w valid convolution and Same convolution:
 	• In same convolution, the output / feature map shape is same as that of the original image
