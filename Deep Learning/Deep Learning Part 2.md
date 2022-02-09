@@ -44,7 +44,7 @@ image cnn for koala
 ## Pooling layer:
 
 	• another building block of a CNN. Pooling. 
-	• Its function is to progressively reduce the spatial size of the representation to reduce the amount of parameters and computation in the network
+	• Its function is to progressively reduce the spatial size of the representation to reduce the amount of parameters and computation
 	• operates on each feature map independently.
 	• Benefits :
 		○ Reduces dimensions & computations
@@ -59,15 +59,16 @@ image cnn for koala
 	
 ## Local connectivity:
 
-	• the concept of each neural connected only to a subset of the input image (unlike a neural network where all the neurons are fully connected)
-	This helps to reduce the number of parameters in the whole system and makes the computation more efficient.
+	• concept of each neural connected only to a subset of the input image
+	• (unlike a neural network where all the neurons are fully connected)
+	• This helps to reduce the number of parameters in the whole system and makes the computation more efficient.
 
 
 ## Padding:
 
 	• Corner pixels don’t contribute much in feature detection
 
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_1.png" /> 
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_1.png" width="60% /> 
 <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_2.png" /> 
 
 ### Difference b/w valid convolution and Same convolution:
