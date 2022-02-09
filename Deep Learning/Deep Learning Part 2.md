@@ -68,8 +68,8 @@ image cnn for koala
 
 	• Corner pixels don’t contribute much in feature detection
 
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_1.png" height="300" width="100%" /> 
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_2.png" height="300" width="100%" /> 
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_1.png" width="60%" /> 
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_2.png" width="60%" /> 
 
 ### Difference b/w valid convolution and Same convolution:
 	• In same convolution, the output / feature map shape is same as that of the original image
@@ -102,9 +102,9 @@ image cnn for koala
 
 <table>
 	<tr>
-		<td><img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/sliding_window_annot.png" width="50%"/> 
+		<td><img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/sliding_window_annot.png" height="300" width="100%"/> 
 </td>
-		<td><img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/sliding_window_annot.png" width="50%"/> </td>
+		<td><img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/sliding_window_annot.png" height="300" width="100%"/> </td>
 	</tr>
 </table>
 Annotation:
