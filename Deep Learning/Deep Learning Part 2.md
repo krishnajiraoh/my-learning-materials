@@ -100,12 +100,20 @@ image cnn for koala
 
 ### Sliding Window:
 
+<table>
+	<tr>
+		<td><img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/sliding_window_annot.png" width="50%"/> 
+</td>
+		<td><img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/sliding_window_annot.png" width="50%"/> </td>
+	</tr>
+</table>
 Annotation:
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/sliding_window_annot.png" width="60%"/> 
+
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/sliding_window_annot.png" width="50%"/> 
 
 
 Training:
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/sliding_window_train.png" /> 
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/sliding_window_train.png" width="50%"/> 
 
 
 ### YOLO:
