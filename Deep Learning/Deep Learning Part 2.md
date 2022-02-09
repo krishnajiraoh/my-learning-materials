@@ -16,8 +16,8 @@ Deep Learning algorithm which can take in an input image, assign importance (lea
     - Sensitive to location of an object in an image
 
 
-![](../2022-02-07-11-36-21.png)
-
+Image koala detection
+image cnn for koala
 
 
 ## Filters
@@ -32,6 +32,8 @@ Filters:
 
 Feature map:
 	• The feature maps of a CNN capture the result of applying the filters to an input image. I.e. at each layer, the feature map is the output of that layer.
+
+image feature_map_formula
 
 Stride:
 	• Stride is the number of pixels shifts over the input matrix. 
@@ -53,6 +55,68 @@ Parameter sharing
 	
 Local connectivity 
 	• the concept of each neural connected only to a subset of the input image (unlike a neural network where all the neurons are fully connected)
-This helps to reduce the number of parameters in the whole system and makes the computation more efficient.
+	This helps to reduce the number of parameters in the whole system and makes the computation more efficient.
 
-![](../2022-02-07-13-55-08.png)
+
+Padding:
+	• Corner pixels don’t contribute much in feature detection
+
+imgae padding_1
+image padding_2
+
+Difference b/w valid convolution and Same convolution:
+	• In same convolution, the output / feature map shape is same as that of the original image
+
+Data Augmentation:
+	• A convolutional neural network that can robustly classify objects even if its placed in different orientations is said to have the property called invariance. More specifically, a CNN can be invariant to translation, viewpoint, size or illumination
+	• a technique to artificially create new training data from existing training data. This is done by applying domain-specific techniques to examples from the training data that create new and different training examples.
+
+Transfer Learning
+
+	• A research problem in ML that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem
+	• Ex: knowledge gained while learning to recognize cars could apply when trying to recognize trucks
+
+img transfer_learning
+
+Object Detection:
+
+image
+
+YOLO:
+	• You only look once
+	• Anchor box
+	• Divide the image into multiple windows, ex : 4 * 4
+
+Sliding Window:
+
+Annotation:
+sliding_window_annot
+
+
+Training:
+sliding_window_train.png
+
+
+YOLO:
+
+Annotation
+yolo_annot
+
+
+
+Training:
+yolo_trai
+
+	
+	
+	• Intersection over Union:
+
+yolo_ioc
+		
+	• Calculate IOU for a given class: (Non max Suppression)
+		○ If IOU >  0, the boxes are overlapping, take the Bounding box with max class probability
+		○ If IOU = 0, the boxes are not overlapping, keep both 
+
+Multiple anchor boxes:
+yolo_multiple_anchors
+
