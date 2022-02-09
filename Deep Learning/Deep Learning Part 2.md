@@ -68,7 +68,7 @@ image cnn for koala
 
 	• Corner pixels don’t contribute much in feature detection
 
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_1.png" width="60% /> 
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_1.png" width="60%" /> 
 <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_2.png" /> 
 
 ### Difference b/w valid convolution and Same convolution:
