@@ -126,13 +126,13 @@ image cnn for koala
 </table>
 	
 	• Intersection over Union:
-
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/yolo_ioc.png" /> 
-		
 	• Calculate IOU for a given class: (Non max Suppression)
 		○ If IOU >  0, the boxes are overlapping, take the Bounding box with max class probability
 		○ If IOU = 0, the boxes are not overlapping, keep both 
 
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/yolo_ioc.png" /> 
+		
+	
 ### Multiple anchor boxes:
 <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/yolo_multiple_anchors.png" /> 
 
