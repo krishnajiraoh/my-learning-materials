@@ -21,25 +21,28 @@ image cnn for koala
 
 
 ## Filters
-
-Filters:
-
+	
 	• Feature detectors
 	•  Filters detect spatial patterns such as edges in an image by detecting the changes in intensity values of the image
 	•  a high-frequency image is the one where the intensity of the pixels changes by a large amount, whereas a low-frequency image is the one where the intensity is almost uniform.
 	•  Usually, an image has both high and low frequency components.
 	•  The high-frequency components correspond to the edges of an object because at the edges the rate of change of intensity of pixel values is high.
 
-Feature map:
-	• The feature maps of a CNN capture the result of applying the filters to an input image. I.e. at each layer, the feature map is the output of that layer.
+## Feature map:
+
+	• The feature maps of a CNN capture the result of applying the filters to an input image. 
+	• I.e. at each layer, the feature map is the output of that layer.
 
 image feature_map_formula
 
-Stride:
-	• Stride is the number of pixels shifts over the input matrix. 
-	• When the stride is 1 then we move the filters to 1 pixel at a time. When the stride is 2 then we move the filters to 2 pixels at a time and so on.
+## Stride:
 
-Pooling layer:
+	• Stride is the number of pixels shifts over the input matrix. 
+	• When the stride is 1 then we move the filters to 1 pixel at a time. 
+	• When the stride is 2 then we move the filters to 2 pixels at a time and so on.
+
+## Pooling layer:
+
 	• another building block of a CNN. Pooling. 
 	• Its function is to progressively reduce the spatial size of the representation to reduce the amount of parameters and computation in the network
 	• operates on each feature map independently.
@@ -50,44 +53,48 @@ Pooling layer:
 	• Ex : Avg pooling, max pooling
 		
 
-Parameter sharing
+## Parameter sharing:
+
 	• sharing of weights by all neurons in a particular feature map.
 	
-Local connectivity 
+## Local connectivity:
+
 	• the concept of each neural connected only to a subset of the input image (unlike a neural network where all the neurons are fully connected)
 	This helps to reduce the number of parameters in the whole system and makes the computation more efficient.
 
 
-Padding:
+## Padding:
+
 	• Corner pixels don’t contribute much in feature detection
 
 imgae padding_1
 image padding_2
 
-Difference b/w valid convolution and Same convolution:
+### Difference b/w valid convolution and Same convolution:
 	• In same convolution, the output / feature map shape is same as that of the original image
 
-Data Augmentation:
+# Data Augmentation:
 	• A convolutional neural network that can robustly classify objects even if its placed in different orientations is said to have the property called invariance. More specifically, a CNN can be invariant to translation, viewpoint, size or illumination
 	• a technique to artificially create new training data from existing training data. This is done by applying domain-specific techniques to examples from the training data that create new and different training examples.
 
-Transfer Learning
+# Transfer Learning
 
 	• A research problem in ML that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem
 	• Ex: knowledge gained while learning to recognize cars could apply when trying to recognize trucks
 
 img transfer_learning
 
-Object Detection:
+# Object Detection:
 
 image
 
-YOLO:
+## YOLO:
+
 	• You only look once
 	• Anchor box
 	• Divide the image into multiple windows, ex : 4 * 4
 
-Sliding Window:
+### Sliding Window:
 
 Annotation:
 sliding_window_annot
@@ -97,7 +104,7 @@ Training:
 sliding_window_train.png
 
 
-YOLO:
+### YOLO:
 
 Annotation
 yolo_annot
@@ -117,6 +124,6 @@ yolo_ioc
 		○ If IOU >  0, the boxes are overlapping, take the Bounding box with max class probability
 		○ If IOU = 0, the boxes are not overlapping, keep both 
 
-Multiple anchor boxes:
+### Multiple anchor boxes:
 yolo_multiple_anchors
 
