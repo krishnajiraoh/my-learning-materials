@@ -23,17 +23,17 @@ image cnn for koala
 ## Filters
 	
 	• Feature detectors
-	•  Filters detect spatial patterns such as edges in an image by detecting the changes in intensity values of the image
-	•  a high-frequency image is the one where the intensity of the pixels changes by a large amount, whereas a low-frequency image is the one where the intensity is almost uniform.
-	•  Usually, an image has both high and low frequency components.
-	•  The high-frequency components correspond to the edges of an object because at the edges the rate of change of intensity of pixel values is high.
+	• Filters detect spatial patterns such as edges in an image by detecting the changes in intensity values of the image
+	• a high-frequency image is the one where the intensity of the pixels changes by a large amount, whereas a low-frequency image is the one where the intensity is almost uniform.
+	• Usually, an image has both high and low frequency components.
+	• The high-frequency components correspond to the edges of an object because at the edges the rate of change of intensity of pixel values is high.
 
 ## Feature map:
 
 	• The feature maps of a CNN capture the result of applying the filters to an input image. 
 	• I.e. at each layer, the feature map is the output of that layer.
 
-image feature_map_formula
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/feature_map_formula.png" /> 
 
 ## Stride:
 
