@@ -85,7 +85,7 @@ image cnn for koala
 	• In same convolution, the output / feature map shape is same as that of the original image
 
 # Data Augmentation:
-	• A convolutional neural network that can robustly classify objects even if its placed in different orientations is said to have the property called invariance. 
+	• A CNN that can robustly classify objects even if its placed in different orientations is said to have the property called invariance. 
 	• More specifically, a CNN can be invariant to translation, viewpoint, size or illumination
 	• technique to artificially create new training data from existing training data. 
 	• done by applying domain-specific techniques to examples from the training data that create new and different training examples.
@@ -96,7 +96,7 @@ image cnn for koala
 	• that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem
 	• Ex: knowledge gained while learning to recognize cars could apply when trying to recognize trucks
 
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/transfer_learning.png" /> 
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/transfer_learning.png" height="300" width="70%"/> 
 
 # Object Detection Models:
 
@@ -108,7 +108,7 @@ image cnn for koala
 	• Anchor box
 	• Divide the image into multiple windows, ex : 4 * 4
 
-### Sliding Window:
+### Sliding Window (Annotations & Training):
 
 <table>
 	<tr>
@@ -122,7 +122,7 @@ image cnn for koala
 </table>
 
 
-### YOLO:
+### YOLO(Annotations & Training):
 
 <table>
 	<tr>
@@ -144,5 +144,5 @@ image cnn for koala
 		
 	
 ### Multiple anchor boxes:
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/yolo_multiple_anchors.png" /> 
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/yolo_multiple_anchors.png" height="300" width="60%" /> 
 
