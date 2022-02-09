@@ -67,8 +67,8 @@ image cnn for koala
 
 	• Corner pixels don’t contribute much in feature detection
 
-imgae padding_1
-image padding_2
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_1.png" /> 
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/padding_2.png" /> 
 
 ### Difference b/w valid convolution and Same convolution:
 	• In same convolution, the output / feature map shape is same as that of the original image
@@ -82,11 +82,11 @@ image padding_2
 	• A research problem in ML that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem
 	• Ex: knowledge gained while learning to recognize cars could apply when trying to recognize trucks
 
-img transfer_learning
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/transfer_learning.png" /> 
 
 # Object Detection:
 
-image
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/object_detection_models.png" />
 
 ## YOLO:
 
@@ -97,33 +97,33 @@ image
 ### Sliding Window:
 
 Annotation:
-sliding_window_annot
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/sliding_window_annot.png" /> 
 
 
 Training:
-sliding_window_train.png
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/sliding_window_train.png" /> 
 
 
 ### YOLO:
 
 Annotation
-yolo_annot
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/yolo_annot.png" /> 
 
 
 
 Training:
-yolo_trai
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/yolo_train.png" /> 
 
 	
 	
 	• Intersection over Union:
 
-yolo_ioc
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/yolo_ioc.png" /> 
 		
 	• Calculate IOU for a given class: (Non max Suppression)
 		○ If IOU >  0, the boxes are overlapping, take the Bounding box with max class probability
 		○ If IOU = 0, the boxes are not overlapping, keep both 
 
 ### Multiple anchor boxes:
-yolo_multiple_anchors
+<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/yolo_multiple_anchors.png" /> 
 
