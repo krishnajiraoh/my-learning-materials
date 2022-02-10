@@ -13,7 +13,7 @@ The following content is taken from <a href="https://github.com/AMAI-GmbH/AI-Exp
 
 <p align="center">
   <a href="https://i.am.ai/roadmap#fundamentals?utm_source=GitHub&utm_medium=Referral&utm_campaign=AI+Expert+Roadmap+Fundamentals" target="_blank">
-      <img src="./images/fundamentals.svg"/>
+      <img src="./images/AI_Roadmap/fundamentals.svg"/>
   </a>
 </p>
 
@@ -21,7 +21,7 @@ The following content is taken from <a href="https://github.com/AMAI-GmbH/AI-Exp
 
 <p align="center">
   <a href="https://i.am.ai/roadmap#data-science-roadmap?utm_source=GitHub&utm_medium=Referral&utm_campaign=AI+Expert+Roadmap+DataScience" target="_blank">
-      <img src="./images/datascience.svg"/>
+      <img src="./images/AI_Roadmap/datascience.svg"/>
   </a>
 </p>
 
@@ -29,7 +29,7 @@ The following content is taken from <a href="https://github.com/AMAI-GmbH/AI-Exp
 
 <p align="center">
   <a href="https://i.am.ai/roadmap#machine-learning-roadmap?utm_source=GitHub&utm_medium=Referral&utm_campaign=AI+Expert+Roadmap+MachineLearning" target="_blank">
-      <img src="./images/machine_learning.svg"/>
+      <img src="./images/AI_Roadmap/machine_learning.svg"/>
   </a>
 </p>
 
@@ -37,6 +37,6 @@ The following content is taken from <a href="https://github.com/AMAI-GmbH/AI-Exp
 
 <p align="center">
   <a href="https://i.am.ai/roadmap#deep-learning-roadmap?utm_source=GitHub&utm_medium=Referral&utm_campaign=AI+Expert+Roadmap+DeepLearning" target="_blank">
-      <img src="./images/deep_learning.svg"/>
+      <img src="./images/AI_Roadmap/deep_learning.svg"/>
   </a>
 </p>
