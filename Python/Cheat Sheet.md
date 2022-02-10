@@ -1,6 +1,8 @@
 # General
 
 	• Difference b/w integer division and float division
+	- List not in list:
+    	- cont_cols = [col for col in income_df.columns if col not in cat_cols]
 	• List comprehension:
         [ f(x) for i in list_a ]
 	• Read labels of classes into a list
