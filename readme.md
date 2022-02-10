@@ -1,6 +1,6 @@
 ## Disclaimer
 
-The following content is taken from <a href="https://github.com/AMAI-GmbH/AI-Expert-Roadmap/blob/main/readme.md>"here"</a>
+The following content is taken from <a href="https://github.com/AMAI-GmbH/AI-Expert-Roadmap/blob/main/readme.md"  target="_blank">here</a>
 
  <h2 align="center">AI Expert Roadmap</h2>
  <p align="center">Roadmap to becoming an Artificial Intelligence Expert in 2021</p>
