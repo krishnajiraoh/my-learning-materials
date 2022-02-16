@@ -1,5 +1,6 @@
 # 2 types of model architecture:
 Ref <a href="https://becominghuman.ai/sequential-vs-functional-model-in-keras-20684f766057>Article</a>
+
 	• Sequential
 	• Functional
 		○ more flexibility
