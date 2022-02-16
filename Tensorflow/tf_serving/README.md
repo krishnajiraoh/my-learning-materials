@@ -11,13 +11,16 @@
 
     tensorflow_model_server --rest_api_port=8605 --model_name=spam_classification_model --model_base_path=/tf_serving/saved_models
 
-Open "http://localhost:8605/v1/models/spam_classification_model" in a browser
+### Inspect: 
+
+    http://localhost:8605/v1/models/spam_classification_model
 
 # Postman
 
 ### Request : 
 
     http://localhost:8605/v1/models/spam_classification_model:predict
+    
 ### Body : 
 
     {
@@ -31,8 +34,13 @@ Open "http://localhost:8605/v1/models/spam_classification_model" in a browser
 
     tensorflow_model_server --rest_api_port=8605 --model_config_path=/tf_serving/model_a.config --allow_version_labels_for_unavailable_models
 
-    Inspect : http://localhost:8605/v1/models/spam_classification_model
-    Request : http://localhost:8605/v1/models/spam_classification_model/versions/2:predict
+### Inspect : 
+
+    http://localhost:8605/v1/models/spam_classification_model
+    
+### Request : 
+
+    http://localhost:8605/v1/models/spam_classification_model/versions/2:predict
 
 # Serve with model labels {beta , production}
 
