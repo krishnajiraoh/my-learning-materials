@@ -1,10 +1,9 @@
 # 2 types of model architecture:
-
+Ref <a href="https://becominghuman.ai/sequential-vs-functional-model-in-keras-20684f766057>Article</a>
 	• Sequential
 	• Functional
 		○ more flexibility
-		○ For example, in sequential model you can only stack one layer after another, while in functional model you can connect a layer to literally any other layer.
-    • Ref : <a href="https://becominghuman.ai/sequential-vs-functional-model-in-keras-20684f766057>Article</a>
+		○ For ex, in sequential model you can only stack one layer after another, while in functional model you can connect a layer to literally any other layer.
 
 
 ## Sequential:
