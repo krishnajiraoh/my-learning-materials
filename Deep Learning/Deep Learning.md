@@ -12,7 +12,9 @@
 
 # Neural Network
 
-![A Neural Network](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/nn.png)
+<p align="center"> 
+	<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/nn.png" height=300/>
+</p>
 
 	• Consists of layers
 	• Types :
@@ -111,8 +113,9 @@
 		○ Mean squared error
 		○ Log loss or binary cross entropy
 
-![Log loss formula](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/log_loss.png)
-			
+<p align="center"> 
+	<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/log_loss.png"/>
+</p>			
 
 # Difference b/w slope & derivative :
 	• Slope is constant -> Linear
@@ -122,13 +125,19 @@
 ![Derivatives formula](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/derivatives.png)
 
 # Partial derivatives
-<cener><img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/partial_derivatives.png" height=250 width=400 /></center>
+
+<p align="center"> 
+	<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/partial_derivatives.png" height=250 width=400 />
+</p>
 
 
 # Chain Rule:
 	• The chain rule is essentially a mathematical formula that helps you calculate the derivative of a composite function
 
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/chain_rule.png" height=400 width=800 />
+
+<p align="center"> 
+	<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/chain_rule.png" height=400 width=800 />
+</p>
 
 
 # Tensorboard
@@ -137,18 +146,22 @@
 	• dropout regularization is used to randomly drop neurons from hidden layers and this helps with generalization.
 
 # Vanishing Gradient & Exploding Gradient Problem :
-https://towardsdatascience.com/the-vanishing-gradient-problem-69bf08b15484
+Ref <a href="https://towardsdatascience.com/the-vanishing-gradient-problem-69bf08b15484">Article</a>
 
 	- Common in RNN
 	- Hence, LSTM and GRU
 
-# image vanished_gradient1
+<p align="center"> 
+	<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/vanished_gradient1.png" height=300/> 
+</p>
 
 ## The problem:
 
 	- With more layers & certain activation fns, the gradients of the loss function approaches zero, making the network hard to train.
 
-# vanished_gradient2
+<p align="center"> 
+	<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/vanished_gradient2.png" height=300/> 
+</p>
 
 ## Why:
 

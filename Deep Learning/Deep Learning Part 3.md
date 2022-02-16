@@ -29,20 +29,20 @@
 
 ## Types of RNN:
 
-    <table>
-        <tr>
-            <td>Many to Many</td>	
-            <td>Language Translation/td>
-        </tr>
-        <tr>
-            <td>Many to One</td>	
-            <td>Sentiment Analysis</td>
-        </tr>
-        <tr>
-            <td>One to Many</td>	
-            <td>Music generation, poetry writing</td>
-        </tr>
-    <table>
+<table>
+    <tr>
+        <td>Many to Many</td>	
+        <td>Language Translation/td>
+    </tr>
+    <tr>
+        <td>Many to One</td>	
+        <td>Sentiment Analysis</td>
+    </tr>
+    <tr>
+        <td>One to Many</td>	
+        <td>Music generation, poetry writing</td>
+    </tr>
+<table>
 
 ## LSTM:
 	• Long Short Term Memory
@@ -107,7 +107,7 @@
 # Word2Vec
 
 <p align="center"> 
-    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/word2Vec.png" height=300/>
+    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/word2vec.png" height=300/>
 </p>
 
     • CBOW : Continuous bag of words
@@ -127,10 +127,12 @@
 <p align="center"> 
     <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/BERT1.png" height=300/>
 </p>
+
 	• Can generate embeddings for a sentence as well
 <p align="center"> 
     <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/BERT2.png" height=300/>
 </p>
+
 	• http://jalammar.github.io/illustrated-bert/
 	• Mask sequences, train to predict the missing words, embeddings is the by-product
 <p align="center"> 

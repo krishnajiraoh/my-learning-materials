@@ -20,9 +20,8 @@
     - Sensitive to location of an object in an image
 
 
-Image koala detection
 <p align="center"> 
-	<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/cnn.png" height=300/> 
+	<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/koala_detection.png" height=300/> 
 </p>
 
 
