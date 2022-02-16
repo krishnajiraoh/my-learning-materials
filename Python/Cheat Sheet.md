@@ -43,8 +43,10 @@
 
 # Sklearn:
 
-	• Sklearn.metrics -> classification_report
+	• Sklearn.metrics -> classification_report 
+	• sklearn.metrics.pairwise -> Cosine_similarity 
     • Model_selection -> train_tset_split
+		- Stratify=label_column => evenly split target column in train/test
 
 
 # Matplot

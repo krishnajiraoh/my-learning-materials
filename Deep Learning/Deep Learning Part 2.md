@@ -6,8 +6,12 @@
     • Automonous cars 
     • Retail (Amazon Go stores)
 
-# Convolutional Neural Network
-Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other.
+# Convolutional Neural Network:
+	
+	Deep Learning algorithm which can 
+		• take in an input image, 
+		• assign importance (learnable weights and biases) to various aspects/objects in the image and 
+		• be able to differentiate one from the other.
 
 ## Disadvantages of ANN for image classification
 
@@ -17,7 +21,9 @@ Deep Learning algorithm which can take in an input image, assign importance (lea
 
 
 Image koala detection
-image cnn for koala
+<p align="center"> 
+	<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/cnn.png" height=300/> 
+</p>
 
 
 ## Filters
@@ -34,7 +40,9 @@ image cnn for koala
 	• The feature maps of a CNN capture the result of applying the filters to an input image. 
 	• I.e. at each layer, the feature map is the output of that layer.
 
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/feature_map_formula.png" /> 
+<p align="center"> 
+	<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/feature_map_formula.png" /> 
+</p>
 
 ## Stride:
 
@@ -96,7 +104,9 @@ image cnn for koala
 	• that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem
 	• Ex: knowledge gained while learning to recognize cars could apply when trying to recognize trucks
 
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/transfer_learning.png" height="300" width="70%"/> 
+<p align="center"> 
+	<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/transfer_learning.png" height="300" width="70%"/> 
+</p>
 
 # Object Detection Models:
 
@@ -140,9 +150,13 @@ image cnn for koala
 		○ If IOU >  0, the boxes are overlapping, take the Bounding box with max class probability
 		○ If IOU = 0, the boxes are not overlapping, keep both 
 
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/yolo_ioc.png" /> 
+<p align="center"> 
+	<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/yolo_ioc.png" /> 
+</p>
 		
 	
 ### Multiple anchor boxes:
-<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/yolo_multiple_anchors.png" height="300" width="60%" /> 
+<p align="center"> 
+	<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/yolo_multiple_anchors.png" height="300" width="60%" /> 
+</p>
 

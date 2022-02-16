@@ -136,8 +136,45 @@
 # Dropout Regularizations
 	• dropout regularization is used to randomly drop neurons from hidden layers and this helps with generalization.
 
+# Vanishing Gradient & Exploding Gradient Problem :
+https://towardsdatascience.com/the-vanishing-gradient-problem-69bf08b15484
+
+	- Common in RNN
+	- Hence, LSTM and GRU
+
+# image vanished_gradient1
+
+## The problem:
+
+	- With more layers & certain activation fns, the gradients of the loss function approaches zero, making the network hard to train.
+
+# vanished_gradient2
+
+## Why:
+
+	- Activation functions, like sigmoid, squishes a large input space into a small input space between 0 and 1. 
+	- Therefore, a large change in the input of the sigmoid function will cause a small change in the output. 
+	- Hence, the derivative becomes small.
+
+## Why it’s significant:
+
+	- For shallow network with only a few layers that use these activations, this isn’t a big problem. 
+	- However, when more layers are used, it can cause the gradient to be too small for training to work effectively.
+	
+	- Gradients of neural networks are found using backpropagation. 
+	- Simply put, backpropagation finds the derivatives of the network by moving layer by layer from the final layer to the initial one. 
+	- By the chain rule, the derivatives of each layer are multiplied down the network (from the final layer to the initial) to compute the derivatives of the initial layers.
+	- However, when n hidden layers use an activation like the sigmoid function, n small derivatives are multiplied together. Thus, the gradient decreases exponentially as we propagate down to the initial layers.
+	- A small gradient means that the weights and biases of the initial layers will not be updated effectively with each training session. Since these initial layers are often crucial to recognizing the core elements of the input data, it can lead to overall inaccuracy of the whole network.
+
+## Solution:
+	- ReLU
+	- Residual networks
+	- Batch normalization
+
 # Interview Questions:
 
     • Build a simple NN class with mimicking a dense layer with sigmoid activation function
+	• Note : Training is not affected by metrics param but only by loss function. Metrics just acts as additional info.
 
 				

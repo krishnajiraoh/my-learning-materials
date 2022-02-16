@@ -22,3 +22,10 @@ Deep Learning/10. Word Embeddings using Keras embedding layer/model/variables/va
 Deep Learning/10. Word Embeddings using Keras embedding layer/model/saved_model.pb
 Deep Learning/10. Word Embeddings using Keras embedding layer/model/keras_metadata.pb
 Deep Learning/10. Word Embeddings using Keras embedding layer/model/variables/variables.index
+
+Deep Learning/12. Text Classification with BERT/model/*
+Deep Learning/12. Text Classification with BERT/bert_en_uncased_preprocess_3/*
+Deep Learning/12. Text Classification with BERT/bert_en_uncased_L-12_H-768_A-12_4/*
+Deep Learning/12. Text Classification with BERT/.ipynb_checkpoints/Text Classification with BERT-checkpoint.ipynb
+Deep Learning/9. Transfer Learning using Google MobileNet V2 Model/.ipynb_checkpoints/Transfer Learning using Google MobileNetV2 Model-checkpoint.ipynb
+Tensorflow/1. Input Pipeline/.ipynb_checkpoints/Input Pipeline-checkpoint.ipynb
