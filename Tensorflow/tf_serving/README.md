@@ -4,7 +4,7 @@
 
 # Run the docker TF serving image in the interactive mode:
 
-    docker run -it -v C:\Users\I301903\Documents\GitHub\MyLearningProjects\Tensorflow\tf_serving:/tf_serving -p 8605:8605 --entrypoint /bin/bash tensorflow/serving
+    docker run -it -v {path_to_model_dir}:/tf_serving -p 8605:8605 --entrypoint /bin/bash tensorflow/serving
     ls -ltr tf_serving
 
 # Automatically pick & serve the latest version of the model in saved_models:
@@ -15,13 +15,17 @@ Open "http://localhost:8605/v1/models/spam_classification_model" in a browser
 
 # Postman
 
-    Request : http://localhost:8605/v1/models/spam_classification_model:predict
-    Body : {
-    "instances": [
-        "Let's meet for dinner tomorrow",
-        "You are awarded a SiPix Digital Camera! call 09061221061 from landline. Delivery within 28days. T Cs Box177"
-    ]
-}
+### Request : 
+
+    http://localhost:8605/v1/models/spam_classification_model:predict
+### Body : 
+
+    {
+        "instances": [
+            "Let's meet for dinner tomorrow",
+            "You are awarded a SiPix Digital Camera! call 09061221061 from landline. Delivery within 28days. T Cs Box177"
+        ]
+    }
 
 # Serve all the versions of a model via a config file
 
