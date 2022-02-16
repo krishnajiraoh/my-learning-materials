@@ -127,17 +127,17 @@
 		○ "Fair" can be used in different contexts
 	• BERT can generate contextualized embeddings
 <p align="center"> 
-    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/BERT1.png" height=300/>
+    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/BERT1.png" height=300 width=600/>
 </p>
 
 	• Can generate embeddings for a sentence as well
 <p align="center"> 
-    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/BERT2.png" height=300/>
+    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/BERT2.png" height=300 width=600/>
 </p>
 
 	• Mask sequences, train to predict the missing words, embeddings is the by-product
 <p align="center"> 
-    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/BERT3.png" height=300/>
+    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/BERT3.png" height=300 width=600/>
 </p>
 
 
