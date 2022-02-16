@@ -122,7 +122,9 @@
 	• Derivative is not constant, is represented as a function-> non-linear
 
 # Derivatives:
-![Derivatives formula](https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/derivatives.png)
+<p align="center"> 
+	<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/derivatives.png" width=400 />
+</p>
 
 # Partial derivatives
 
@@ -175,10 +177,13 @@ Ref <a href="https://towardsdatascience.com/the-vanishing-gradient-problem-69bf0
 	- However, when more layers are used, it can cause the gradient to be too small for training to work effectively.
 	
 	- Gradients of neural networks are found using backpropagation. 
-	- Simply put, backpropagation finds the derivatives of the network by moving layer by layer from the final layer to the initial one. 
-	- By the chain rule, the derivatives of each layer are multiplied down the network (from the final layer to the initial) to compute the derivatives of the initial layers.
-	- However, when n hidden layers use an activation like the sigmoid function, n small derivatives are multiplied together. Thus, the gradient decreases exponentially as we propagate down to the initial layers.
-	- A small gradient means that the weights and biases of the initial layers will not be updated effectively with each training session. Since these initial layers are often crucial to recognizing the core elements of the input data, it can lead to overall inaccuracy of the whole network.
+	- Simply put, backpropagation finds the derivatives of the network by moving layer by layer from the final layer to the initial one 
+	- By the chain rule, the derivatives of each layer are multiplied down the network (from final to initial) to compute the derivatives of the initial layers
+  
+	- However, when n hidden layers use an activation like the sigmoid function, n small derivatives are multiplied together. 
+    	- Thus, the gradient decreases exponentially as we propagate down to the initial layers.
+	- A small gradient means that the weights and biases of the initial layers will not be updated effectively with each training session. 
+    	- Since these initial layers are often crucial to recognizing the core elements of the input data, it can lead to overall inaccuracy of the whole network.
 
 ## Solution:
 	- ReLU

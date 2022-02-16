@@ -69,13 +69,13 @@
 # Techniques to process Textual data
 
 
-## 1. Build vocabulary and number the individual words:
+### 1. Build vocabulary and number the individual words:
     ○ Distance problem b/w random and similar words
-## 2. One hot encoding
+### 2. One hot encoding
     ○ Relationship between similar words (ex: grapes, bananas are fruits)
     ○ Computation cost
     ○ Transfer learning is not possible, need complete retrain
-## 3. Word embedding
+### 3. Word embedding
     ○ Capture similarity  b/w  words
     ○ Feature extraction from words -> Feature Vector
 
@@ -119,6 +119,8 @@
 
 # BERT
 
+<a href="http://jalammar.github.io/illustrated-bert">Blog</a>
+
 	• Bidirectional Encoder Representations from Transformers (by Google)
 	• Google Search suggestions are powered by BERT
 	• Issue with Word2Vec -> Fixed embeddings
@@ -133,7 +135,6 @@
     <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/BERT2.png" height=300/>
 </p>
 
-	• http://jalammar.github.io/illustrated-bert/
 	• Mask sequences, train to predict the missing words, embeddings is the by-product
 <p align="center"> 
     <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/BERT3.png" height=300/>
