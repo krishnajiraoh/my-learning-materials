@@ -31,3 +31,6 @@ Deep Learning/9. Transfer Learning using Google MobileNet V2 Model/.ipynb_checkp
 
 Tensorflow/1. Input Pipeline/.ipynb_checkpoints/Input Pipeline-checkpoint.ipynb
 Tensorflow/tf_serving/saved_models/*
+
+Tensorflow/2. Quantization Techniques/model/*
+Tensorflow/2. Quantization Techniques/.ipynb_checkpoints/Quantization Techniques-checkpoint.ipynb

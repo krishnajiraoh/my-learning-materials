@@ -35,6 +35,29 @@ Ref <a href="https://becominghuman.ai/sequential-vs-functional-model-in-keras-20
         • Scale:
             ○ tf.dataset_map(lambda x: x/255)
 
+# TF Serving:
+
+	• TF serving is a tool that allows you to bring up a model server with single command. 
+	• Enables model version management, loading of models dynamically. 
+	• Supports features such as version labels, configurable version policy, monitoring etc.
+
+# TF Quantization:
+
+    • Optimize or downsize models to run efficiently in low resource environment ( edge devices )
+	• Faster inference
+	• Ex : Model weights :
+		○ Convert float to int -> uses 1 byte instead of 8 bytes
+	• Techniques 
+		○ Post training
+			- Minimize using tf.lite with Quantization 
+			- Accuracy/performance is compromised 
+		○ Pre training / Quantization aware training
+
+<p align="center">
+    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Tensorflow/.images/quant.png" height=300 />
+</p>
+
+
 
 
 
