@@ -25,7 +25,7 @@
 # Input Pipeline:
 
 <p align="center">
-    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/.images/input_pipeline.png" height=300 />
+    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Tensorflow/.images/input_pipeline.png" height=300 />
 </p>
 
     tf.data.Dataset : 
