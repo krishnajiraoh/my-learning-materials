@@ -196,6 +196,6 @@ Ref <a href="https://towardsdatascience.com/the-vanishing-gradient-problem-69bf0
 	• Note : Training is not affected by metrics param but only by loss function. Metrics just acts as additional info.
 
 
-<a href"https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/Deep%20Learning%20Part%202.md">Continued...</a>
+<a href="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/Deep%20Learning%20Part%202.md">Continued...</a>
 
 				

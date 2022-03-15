@@ -159,4 +159,4 @@
 	<img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/images/yolo_multiple_anchors.png" height="300" width="60%" /> 
 </p>
 
-<a href"https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/Deep%20Learning%20Part%203.md">Continued...</a>
+<a href="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Deep%20Learning/Deep%20Learning%20Part%203.md">Continued...</a>
