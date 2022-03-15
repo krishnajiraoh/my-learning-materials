@@ -61,3 +61,11 @@
 ## layers
 
 	- layers.Conv2D(16, 3, padding='same')
+
+
+# Interview Questions
+
+1. Output of?
+
+	'{2}, {1}, {0}'.format(*'abc') 
+			-> 'c,b,a'
