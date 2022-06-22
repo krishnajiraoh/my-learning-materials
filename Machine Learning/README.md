@@ -24,7 +24,7 @@
 ## Ex: of cost function: Mean Squared Error : MSE
 
 <p align="center"> 
-    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Machine%20Learning/.images/mse.png" height=300/> 
+    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Machine%20Learning/.images/mse.png" height=100/> 
 </p>
 
 <p align="center"> 
@@ -38,7 +38,7 @@
 	• Converts input values into the range 0 to 1
 
 <p align="center"> 
-    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Machine%20Learning/.images/logistic_reg.png" height=300/> 
+    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Machine%20Learning/.images/logistic_reg.png" height=100/> 
 </p>
 <p align="center"> 
     <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Machine%20Learning/.images/logistic_reg_ex.png" height=300/> 
@@ -113,7 +113,7 @@
 		○ Ex: In Gaussian Naive Bayes, continuous values associated with each feature are assumed to be distributed according to a Gaussian distribution.
 <iamges>
 <p align="center"> 
-    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Machine%20Learning/.images/naive_bayes.png" height=300/> 
+    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Machine%20Learning/.images/naive_bayes.png" height=100/> 
 </p>
 <p align="center"> 
     <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Machine%20Learning/.images/nb_ex.png" height=300/> 
@@ -141,7 +141,7 @@
 	• L1 -> use Absolute value
 
 <p align="center"> 
-    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Machine%20Learning/.images/l1.png" height=300/> 
+    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Machine%20Learning/.images/l1.png" height=100/> 
 </p>
 
 ## L2 Regularization :
@@ -150,7 +150,7 @@
 	• L2 -> 2 stands for Square
 
 <p align="center"> 
-    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Machine%20Learning/.images/l2.png" height=300/> 
+    <img src="https://github.com/krishnajiraoh/MyLearningMaterials/blob/main/Machine%20Learning/.images/l2.png" height=100/> 
 </p>
 
 # Metrics:
